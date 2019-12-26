@@ -1,4 +1,5 @@
 //FirebaseDatabase.net 4.0.4
+// https://medium.com/step-up-labs/firebase-c-library-5c342989ad18#.5j8zqmegj
 
 using System;
 using System.Collections.Generic;
