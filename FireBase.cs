@@ -34,7 +34,12 @@ namespace FireBaseApp
                    //.StartAt("pterodactyl")
                    //.LimitToFirst(2)
                    //.OnceAsync<Dinosaur>();
-
+                var observable = firebase
+                               .Child("/1")
+                               .AsObservable<Dinosaur>()
+                               .Subscribe(d => Console.WriteLine(d));
+                // need to create -- Customers/1/dino/Id + name + address
+                Console.ReadLine();
 
             }
             catch (Exception ex)
