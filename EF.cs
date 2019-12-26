@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace EF
 {
+    // ADO.NET Entity DATA Model -- as EnitityModel
     class Program
     {
         static void Main(string[] args)
